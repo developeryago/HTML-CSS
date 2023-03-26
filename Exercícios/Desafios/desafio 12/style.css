@@ -50,14 +50,17 @@ main p{
 }
 #joaninha{
     background-image: url(imagens/background001.jpg);
-    background-position:left;
+    background-attachment: fixed;
+    background-position: right center;
     background-size: cover;
 }
 #folhas{
     background-image: url(imagens/background002.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
 }
-.img{
+p.img{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
