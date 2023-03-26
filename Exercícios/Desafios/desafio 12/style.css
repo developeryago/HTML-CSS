@@ -64,10 +64,7 @@ p.img{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
-    padding: 5px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
+    text-shadow: 1px 1px 1px black;
 }
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
