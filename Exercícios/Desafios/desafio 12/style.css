@@ -21,18 +21,26 @@ header{
 }
 header h1{
     font-family: var(--fonte-título);
-    font-size: 67px;
+    font-variant: small-caps;
+    font-size: 8vw;
     height: 56.6px;
     margin:20px;
 }
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
 }
 header a{
     color: white;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+}
+a{
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
 }
 main p{
     font-family: var(--fonte-padrão);
@@ -42,6 +50,25 @@ main p{
     padding-top: 10vh;
     padding-right: 10vh;
 }
-div#joaninha{
-    background-image: url(imagens/background002.jpg
+#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-position:left;
+    background-size: cover;
+}
+#folhas{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+.img{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    margin: 30px 0px;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
