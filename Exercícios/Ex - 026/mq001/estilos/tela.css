@@ -7,6 +7,7 @@
 }
 h1{
     padding: 20px;
+    text-align: center;
 }
 header{
     background-image: linear-gradient( to left, purple, rgba(206, 18, 206, 0.541));
@@ -22,6 +23,12 @@ menu{
 menu a{
     padding: 10px;
     margin: 20px;
+}
+main{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border: 1px 1px solid rgba(0, 0, 0, 0.555);
 }
 h2{
     text-align: center;
